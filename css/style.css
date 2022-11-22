@@ -22,7 +22,10 @@
 /*******************************************/
 
 body {
-  background: url(/assets/images/starfield.png) #111;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url(../assets/images/starfield.png) #111;
   font-family: 'IBM Plex Mono', monospace;
 }
 h1 {
@@ -67,6 +70,17 @@ header {
 .date-picker {
   display: flex;
   justify-content: center;
+}
+footer {
+  bottom: 0;
+  margin-top: auto;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+footer a {
+  color: white;
 }
 
 /******************************************
