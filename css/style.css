@@ -1,0 +1,80 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background: url(/assets/images/starfield.png) #111;
+  font-family: 'IBM Plex Mono', monospace;
+}
+h1 {
+  font-size: 3em;
+  color: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 1em auto;
+  background: white;
+  width: 80%;
+  justify-content: space-between;
+  contain: content;
+  border: 0.75em solid white;
+}
+.picture,
+.info {
+  width: 50%;
+}
+.picture {
+  display: flex;
+  contain: content;
+  line-height: normal;
+}
+.picture img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.info {
+  padding: 0 2em;
+}
+.date-picker {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+canvas {
+  background: #111;
+}
