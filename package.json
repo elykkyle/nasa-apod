@@ -1,0 +1,24 @@
+{
+  "name": "nasa-apod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elykkyle/nasa-apod.git"
+  },
+  "author": "Kyle Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elykkyle/nasa-apod/issues"
+  },
+  "homepage": "https://github.com/elykkyle/nasa-apod#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
