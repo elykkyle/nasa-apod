@@ -18,12 +18,20 @@
   </head>
   <body>
     <header>
-      <img src="assets/images/NASA_logo.svg" alt="NASA Logo" />
-      <h1>Astronomy Picture of the Day</h1>
+      <div class="flex flex-col md:flex-row md:w-5/6 mx-auto py-4">
+        <img
+          class="max-h-36"
+          src="assets/images/NASA_logo.svg"
+          alt="NASA Logo" />
+        <h1 class="text-white text-4xl text-center self-center">
+          Astronomy Picture of the Day
+        </h1>
+      </div>
     </header>
-    <div class="date-picker">
+    <div
+      class="flex flex-col md:flex-row mx-auto py-4 space-x-2 justify-center items-center">
       <input type="date" name="date" id="date-input" />
-      <button>submit</button>
+      <button class="bg-gray-300 px-2">submit</button>
     </div>
     <div class="container">
       <div class="picture">
