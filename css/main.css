@@ -668,14 +668,18 @@ video {
   line-height: 1;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.text-\[0\.7rem\] {
+  font-size: 0.7rem;
 }
 
 .font-bold {
@@ -685,12 +689,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.backdrop-blur {
-  --tw-backdrop-blur: blur(8px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 body {
@@ -723,6 +721,10 @@ body {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
   }
 
   .lg\:border-\[0\.75em\] {
