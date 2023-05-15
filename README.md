@@ -11,6 +11,7 @@ A simple page to grab NASA's Astronomy Picture of the Day using [NASA's API](htt
 **Tech used:** HTML, Tailwind CSS, JavaScript
 
 A fun site I built that queries NASA's API for the Astronomy Picture of the Day. On load, the current day picture loads, and a date picker allows the user to choose any historical day they choose. Site is responsive using Tailwind CSS for styling.
+I also used the canvas API to generate a starfield background image.
 
 ## Lessons Learned
 
