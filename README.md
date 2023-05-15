@@ -17,6 +17,7 @@ A fun site I built that queries NASA's API for the Astronomy Picture of the Day.
 This project gave me some good practice using fetch in JavaScript. I also learned a lot about Tailwind CSS and how it implements responsiveness.
 
 ## Optimizations (Backlog)
+
 • Add support for video
 • Prevent user from picking date in future
 • Style date picker
